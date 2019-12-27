@@ -6,5 +6,6 @@ target 'TesteiOS2' do
   use_frameworks!
 
   # Pods for TesteiOS2
+  pod 'SwiftLint'
 
 end
