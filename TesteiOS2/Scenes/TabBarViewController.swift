@@ -12,17 +12,18 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         setupTabBar()
     }
-    
+
     private func setupTabBar() {
         let investmentNavController = UINavigationController(rootViewController: InvestmentViewController())
         investmentNavController.tabBarItem.title = "Investimento"
-        
+
         let contactNavController = UINavigationController(rootViewController: ContactViewController())
         contactNavController.tabBarItem.title = "Contato"
-        
+
         viewControllers = [investmentNavController, contactNavController]
     }
+
 }

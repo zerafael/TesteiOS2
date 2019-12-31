@@ -1,5 +1,5 @@
 //
-//  Constants.swift
+//  UITableViewCell+Extension.swift
 //  TesteiOS2
 //
 //  Created by José Rafael Ferraz Pacheco on 30/12/19.
@@ -7,10 +7,6 @@
 //
 
 import Foundation
+import UIKit
 
-struct Constants {
-    struct Colors {
-        static let button = "#DA0101"
-        static let buttonPressed = "#EB7676"
-    }
-}
+extension UITableViewCell: ReusableCell { }
