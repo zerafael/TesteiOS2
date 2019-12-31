@@ -10,13 +10,15 @@
 		8204C19123BAFC6500E372BA /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19023BAFC6500E372BA /* ReusableCell.swift */; };
 		8204C19323BAFD2500E372BA /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19223BAFD2500E372BA /* UITableViewCell+Extension.swift */; };
 		8204C19523BAFE9B00E372BA /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19423BAFE9B00E372BA /* UITableView+Extension.swift */; };
+		8204C19723BBD47400E372BA /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19623BBD47400E372BA /* DynamicTableViewCell.swift */; };
+		8204C19A23BBDDA300E372BA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19923BBDDA300E372BA /* ButtonView.swift */; };
+		8204C19C23BBEB1100E372BA /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19B23BBEB1100E372BA /* TextFieldView.swift */; };
 		821A2DF423B4651D00CA94AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821A2DF323B4651D00CA94AE /* AppDelegate.swift */; };
 		821A2DFD23B4652100CA94AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821A2DFC23B4652100CA94AE /* Assets.xcassets */; };
 		821A2E0023B4652100CA94AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821A2DFE23B4652100CA94AE /* LaunchScreen.storyboard */; };
 		822013FC23B98219008838E7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822013FB23B98219008838E7 /* TabBarViewController.swift */; };
 		822013FE23B9CDB7008838E7 /* InvestmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822013FD23B9CDB7008838E7 /* InvestmentViewController.swift */; };
 		8220140023B9CFA3008838E7 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822013FF23B9CFA3008838E7 /* ContactViewController.swift */; };
-		8220140323B9DEB1008838E7 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220140223B9DEB1008838E7 /* ButtonTableViewCell.swift */; };
 		8220140623B9E0A8008838E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220140523B9E0A8008838E7 /* Constants.swift */; };
 		8220140923B9E407008838E7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220140823B9E407008838E7 /* UIColor+Extension.swift */; };
 		8220140B23B9F8A4008838E7 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220140A23B9F8A4008838E7 /* UIButton+Extension.swift */; };
@@ -28,6 +30,9 @@
 		8204C19023BAFC6500E372BA /* ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
 		8204C19223BAFD2500E372BA /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
 		8204C19423BAFE9B00E372BA /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		8204C19623BBD47400E372BA /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
+		8204C19923BBDDA300E372BA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		8204C19B23BBEB1100E372BA /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		821A2DF023B4651D00CA94AE /* TesteiOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteiOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		821A2DF323B4651D00CA94AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		821A2DFC23B4652100CA94AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,7 +41,6 @@
 		822013FB23B98219008838E7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		822013FD23B9CDB7008838E7 /* InvestmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentViewController.swift; sourceTree = "<group>"; };
 		822013FF23B9CFA3008838E7 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
-		8220140223B9DEB1008838E7 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
 		8220140523B9E0A8008838E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8220140823B9E407008838E7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		8220140A23B9F8A4008838E7 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
@@ -62,6 +66,15 @@
 				8204C19023BAFC6500E372BA /* ReusableCell.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8204C19823BBDD8800E372BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8204C19923BBDDA300E372BA /* ButtonView.swift */,
+				8204C19B23BBEB1100E372BA /* TextFieldView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		821A2DE723B4651D00CA94AE = {
@@ -127,7 +140,8 @@
 		8220140123B9DE6E008838E7 /* TableCells */ = {
 			isa = PBXGroup;
 			children = (
-				8220140223B9DEB1008838E7 /* ButtonTableViewCell.swift */,
+				8204C19823BBDD8800E372BA /* Views */,
+				8204C19623BBD47400E372BA /* DynamicTableViewCell.swift */,
 			);
 			path = TableCells;
 			sourceTree = "<group>";
@@ -287,10 +301,12 @@
 				8204C19323BAFD2500E372BA /* UITableViewCell+Extension.swift in Sources */,
 				822013FE23B9CDB7008838E7 /* InvestmentViewController.swift in Sources */,
 				822013FC23B98219008838E7 /* TabBarViewController.swift in Sources */,
-				8220140323B9DEB1008838E7 /* ButtonTableViewCell.swift in Sources */,
 				821A2DF423B4651D00CA94AE /* AppDelegate.swift in Sources */,
 				8220140B23B9F8A4008838E7 /* UIButton+Extension.swift in Sources */,
+				8204C19C23BBEB1100E372BA /* TextFieldView.swift in Sources */,
 				8220140023B9CFA3008838E7 /* ContactViewController.swift in Sources */,
+				8204C19A23BBDDA300E372BA /* ButtonView.swift in Sources */,
+				8204C19723BBD47400E372BA /* DynamicTableViewCell.swift in Sources */,
 				8220140623B9E0A8008838E7 /* Constants.swift in Sources */,
 				8204C19123BAFC6500E372BA /* ReusableCell.swift in Sources */,
 			);

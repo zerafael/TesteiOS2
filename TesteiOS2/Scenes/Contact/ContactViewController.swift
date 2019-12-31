@@ -27,7 +27,7 @@ class ContactViewController: UITableViewController {
     }
 
     private func registerCells() {
-        tableView.register(ButtonTableViewCell.self)
+        tableView.register(DynamicTableViewCell.self)
     }
 
     // MARK: - Table view data source
@@ -45,7 +45,7 @@ class ContactViewController: UITableViewController {
 //    }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(for: indexPath) as ButtonTableViewCell
+        let cell = tableView.dequeueReusableCell(for: indexPath) as DynamicTableViewCell
 
         return cell
     }
