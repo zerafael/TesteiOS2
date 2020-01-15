@@ -23,13 +23,18 @@ class DynamicTableViewCell: UITableViewCell {
     }
 
     private func setupView() {
-        content = ButtonView(title: "Enviar")
-        
+//        content = ButtonView(title: "Enviar")
+//        content = TextFieldView()
+        content = CheckboxView()
+
         self.addSubview(content)
+
+        // Temp
+        content.topAnchor.constraint(equalTo: self.topAnchor, constant: 20).isActive = true
 
         content.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 30).isActive = true
         content.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -30).isActive = true
-        content.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+        content.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -20).isActive = true
     }
 
 }

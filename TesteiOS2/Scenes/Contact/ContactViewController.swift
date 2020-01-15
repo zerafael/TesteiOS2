@@ -24,6 +24,7 @@ class ContactViewController: UITableViewController {
         view.backgroundColor = .red
 
         tableView.separatorStyle = .none
+        tableView.allowsSelection = false
     }
 
     private func registerCells() {

@@ -12,5 +12,16 @@ struct Constants {
     struct Colors {
         static let button = "#DA0101"
         static let buttonPressed = "#EB7676"
+        
+        static let checkboxSelected = "#DA0101"
+        static let checkboxBorder = "#979797"
+        static let checkboxLabel = "#ACACAC"
+
+        static let labelTextField = "#ACACAC"
+        static let lineTextField = "#EFEEED"
+        static let lineSelectedTextField = "#ACACAC"
+        static let invalidInputTextField = "#FF1F1F"
+        static let validInputTextField = "#65BE30"
+
     }
 }

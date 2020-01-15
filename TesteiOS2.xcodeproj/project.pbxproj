@@ -13,6 +13,20 @@
 		8204C19723BBD47400E372BA /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19623BBD47400E372BA /* DynamicTableViewCell.swift */; };
 		8204C19A23BBDDA300E372BA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19923BBDDA300E372BA /* ButtonView.swift */; };
 		8204C19C23BBEB1100E372BA /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19B23BBEB1100E372BA /* TextFieldView.swift */; };
+		8204C1A723BBEDFF00E372BA /* DINNeuzeitGroteskStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C19E23BBEDFE00E372BA /* DINNeuzeitGroteskStd-Light.otf */; };
+		8204C1A823BBEDFF00E372BA /* DINPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C19F23BBEDFE00E372BA /* DINPro-Medium.otf */; };
+		8204C1A923BBEDFF00E372BA /* DINEngschriftStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C1A023BBEDFE00E372BA /* DINEngschriftStd.otf */; };
+		8204C1AA23BBEDFF00E372BA /* DINNeuzeitGroteskStd-BdCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C1A123BBEDFE00E372BA /* DINNeuzeitGroteskStd-BdCond.otf */; };
+		8204C1AB23BBEDFF00E372BA /* DINPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C1A223BBEDFE00E372BA /* DINPro-Light.otf */; };
+		8204C1AC23BBEDFF00E372BA /* DINPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C1A323BBEDFE00E372BA /* DINPro-Bold.otf */; };
+		8204C1AD23BBEDFF00E372BA /* DINPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C1A423BBEDFE00E372BA /* DINPro-Regular.otf */; };
+		8204C1AE23BBEDFF00E372BA /* DINPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C1A523BBEDFE00E372BA /* DINPro-Black.otf */; };
+		8204C1AF23BBEDFF00E372BA /* DINMittelschriftStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C1A623BBEDFE00E372BA /* DINMittelschriftStd.otf */; };
+		8204C1B123BBF4A300E372BA /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C1B023BBF4A300E372BA /* Utility.swift */; };
+		82050CE023CE516F000630C2 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82050CDF23CE516E000630C2 /* CheckboxView.swift */; };
+		82050CE323CE53B2000630C2 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82050CE223CE53B2000630C2 /* Checkbox.swift */; };
+		820B308B23C04C3400B4D5C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820B308A23C04C3400B4D5C6 /* UIView+Extension.swift */; };
+		820F2CE323CF9751003668E9 /* FormService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F2CE223CF9751003668E9 /* FormService.swift */; };
 		821A2DF423B4651D00CA94AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821A2DF323B4651D00CA94AE /* AppDelegate.swift */; };
 		821A2DFD23B4652100CA94AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821A2DFC23B4652100CA94AE /* Assets.xcassets */; };
 		821A2E0023B4652100CA94AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821A2DFE23B4652100CA94AE /* LaunchScreen.storyboard */; };
@@ -33,6 +47,20 @@
 		8204C19623BBD47400E372BA /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
 		8204C19923BBDDA300E372BA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		8204C19B23BBEB1100E372BA /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		8204C19E23BBEDFE00E372BA /* DINNeuzeitGroteskStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNeuzeitGroteskStd-Light.otf"; sourceTree = "<group>"; };
+		8204C19F23BBEDFE00E372BA /* DINPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Medium.otf"; sourceTree = "<group>"; };
+		8204C1A023BBEDFE00E372BA /* DINEngschriftStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINEngschriftStd.otf; sourceTree = "<group>"; };
+		8204C1A123BBEDFE00E372BA /* DINNeuzeitGroteskStd-BdCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNeuzeitGroteskStd-BdCond.otf"; sourceTree = "<group>"; };
+		8204C1A223BBEDFE00E372BA /* DINPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Light.otf"; sourceTree = "<group>"; };
+		8204C1A323BBEDFE00E372BA /* DINPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Bold.otf"; sourceTree = "<group>"; };
+		8204C1A423BBEDFE00E372BA /* DINPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Regular.otf"; sourceTree = "<group>"; };
+		8204C1A523BBEDFE00E372BA /* DINPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Black.otf"; sourceTree = "<group>"; };
+		8204C1A623BBEDFE00E372BA /* DINMittelschriftStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINMittelschriftStd.otf; sourceTree = "<group>"; };
+		8204C1B023BBF4A300E372BA /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		82050CDF23CE516E000630C2 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		82050CE223CE53B2000630C2 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		820B308A23C04C3400B4D5C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		820F2CE223CF9751003668E9 /* FormService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormService.swift; sourceTree = "<group>"; };
 		821A2DF023B4651D00CA94AE /* TesteiOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteiOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		821A2DF323B4651D00CA94AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		821A2DFC23B4652100CA94AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,8 +101,41 @@
 			children = (
 				8204C19923BBDDA300E372BA /* ButtonView.swift */,
 				8204C19B23BBEB1100E372BA /* TextFieldView.swift */,
+				82050CDF23CE516E000630C2 /* CheckboxView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8204C19D23BBEDAC00E372BA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8204C1A023BBEDFE00E372BA /* DINEngschriftStd.otf */,
+				8204C1A623BBEDFE00E372BA /* DINMittelschriftStd.otf */,
+				8204C1A123BBEDFE00E372BA /* DINNeuzeitGroteskStd-BdCond.otf */,
+				8204C19E23BBEDFE00E372BA /* DINNeuzeitGroteskStd-Light.otf */,
+				8204C1A523BBEDFE00E372BA /* DINPro-Black.otf */,
+				8204C1A323BBEDFE00E372BA /* DINPro-Bold.otf */,
+				8204C1A223BBEDFE00E372BA /* DINPro-Light.otf */,
+				8204C19F23BBEDFE00E372BA /* DINPro-Medium.otf */,
+				8204C1A423BBEDFE00E372BA /* DINPro-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		82050CE123CE5380000630C2 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				82050CE223CE53B2000630C2 /* Checkbox.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		820F2CE123CF9522003668E9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				820F2CE223CF9751003668E9 /* FormService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		821A2DE723B4651D00CA94AE = {
@@ -99,13 +160,16 @@
 			isa = PBXGroup;
 			children = (
 				822013EC23B97EEC008838E7 /* Scenes */,
-				8220140723B9E3E5008838E7 /* Extensions */,
+				820F2CE123CF9522003668E9 /* Networking */,
+				82050CE123CE5380000630C2 /* CustomViews */,
 				8204C18F23BAFBB200E372BA /* Protocols */,
+				8220140723B9E3E5008838E7 /* Extensions */,
 				8220140423B9E08B008838E7 /* Others */,
 				821A2DF323B4651D00CA94AE /* AppDelegate.swift */,
 				821A2DFC23B4652100CA94AE /* Assets.xcassets */,
 				821A2DFE23B4652100CA94AE /* LaunchScreen.storyboard */,
 				821A2E0123B4652100CA94AE /* Info.plist */,
+				8204C19D23BBEDAC00E372BA /* fonts */,
 			);
 			path = TesteiOS2;
 			sourceTree = "<group>";
@@ -150,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				8220140523B9E0A8008838E7 /* Constants.swift */,
+				8204C1B023BBF4A300E372BA /* Utility.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -161,6 +226,7 @@
 				8220140A23B9F8A4008838E7 /* UIButton+Extension.swift */,
 				8204C19223BAFD2500E372BA /* UITableViewCell+Extension.swift */,
 				8204C19423BAFE9B00E372BA /* UITableView+Extension.swift */,
+				820B308A23C04C3400B4D5C6 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -242,8 +308,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8204C1AC23BBEDFF00E372BA /* DINPro-Bold.otf in Resources */,
+				8204C1AA23BBEDFF00E372BA /* DINNeuzeitGroteskStd-BdCond.otf in Resources */,
 				821A2E0023B4652100CA94AE /* LaunchScreen.storyboard in Resources */,
+				8204C1AD23BBEDFF00E372BA /* DINPro-Regular.otf in Resources */,
+				8204C1A923BBEDFF00E372BA /* DINEngschriftStd.otf in Resources */,
 				821A2DFD23B4652100CA94AE /* Assets.xcassets in Resources */,
+				8204C1AB23BBEDFF00E372BA /* DINPro-Light.otf in Resources */,
+				8204C1AE23BBEDFF00E372BA /* DINPro-Black.otf in Resources */,
+				8204C1AF23BBEDFF00E372BA /* DINMittelschriftStd.otf in Resources */,
+				8204C1A823BBEDFF00E372BA /* DINPro-Medium.otf in Resources */,
+				8204C1A723BBEDFF00E372BA /* DINNeuzeitGroteskStd-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,19 +371,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8204C1B123BBF4A300E372BA /* Utility.swift in Sources */,
 				8204C19523BAFE9B00E372BA /* UITableView+Extension.swift in Sources */,
 				8220140923B9E407008838E7 /* UIColor+Extension.swift in Sources */,
+				820B308B23C04C3400B4D5C6 /* UIView+Extension.swift in Sources */,
 				8204C19323BAFD2500E372BA /* UITableViewCell+Extension.swift in Sources */,
 				822013FE23B9CDB7008838E7 /* InvestmentViewController.swift in Sources */,
 				822013FC23B98219008838E7 /* TabBarViewController.swift in Sources */,
 				821A2DF423B4651D00CA94AE /* AppDelegate.swift in Sources */,
 				8220140B23B9F8A4008838E7 /* UIButton+Extension.swift in Sources */,
+				820F2CE323CF9751003668E9 /* FormService.swift in Sources */,
 				8204C19C23BBEB1100E372BA /* TextFieldView.swift in Sources */,
 				8220140023B9CFA3008838E7 /* ContactViewController.swift in Sources */,
 				8204C19A23BBDDA300E372BA /* ButtonView.swift in Sources */,
 				8204C19723BBD47400E372BA /* DynamicTableViewCell.swift in Sources */,
 				8220140623B9E0A8008838E7 /* Constants.swift in Sources */,
 				8204C19123BAFC6500E372BA /* ReusableCell.swift in Sources */,
+				82050CE023CE516F000630C2 /* CheckboxView.swift in Sources */,
+				82050CE323CE53B2000630C2 /* Checkbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +525,7 @@
 			baseConfigurationReference = A01D6E7AF945AF143ED5F98D /* Pods-TesteiOS2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5N8L9587G7;
 				INFOPLIST_FILE = TesteiOS2/Info.plist;
@@ -455,6 +536,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = josecarvalho.TesteiOS2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,6 +547,7 @@
 			baseConfigurationReference = 8EF32EE3C749C2277EDC5BD0 /* Pods-TesteiOS2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5N8L9587G7;
 				INFOPLIST_FILE = TesteiOS2/Info.plist;
@@ -475,6 +558,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = josecarvalho.TesteiOS2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
