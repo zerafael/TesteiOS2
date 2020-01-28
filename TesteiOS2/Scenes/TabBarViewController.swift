@@ -20,7 +20,7 @@ class TabBarViewController: UITabBarController {
         let investmentNavController = UINavigationController(rootViewController: InvestmentViewController())
         investmentNavController.tabBarItem.title = "Investimento"
 
-        let contactNavController = UINavigationController(rootViewController: ContactViewController())
+        let contactNavController = UINavigationController(rootViewController: ContactViewController(style: .plain))
         contactNavController.tabBarItem.title = "Contato"
 
         viewControllers = [investmentNavController, contactNavController]

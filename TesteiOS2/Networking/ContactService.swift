@@ -7,15 +7,13 @@
 //
 
 import Foundation
+import Alamofire
 
-class FormService {
+class ContactService: ApiService<[ContactCell]> {
     
-    private let baseUrl: String
-    
-    init() {
-        
+    override init() {
+        super.init()
+        baseUrl = Constants.API.formCells
     }
-    
-    func sendClient()
-    
+        
 }

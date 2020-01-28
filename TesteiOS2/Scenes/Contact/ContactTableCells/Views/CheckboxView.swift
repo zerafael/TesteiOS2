@@ -18,7 +18,6 @@ class CheckboxView: UIView {
     
     lazy var label: UILabel = {
         let label = UILabel()
-        label.text = "Gostaria de cadastrar meu email"
         label.font = UIFont(name: "DINPro-Regular", size: 16)
         label.textColor = UIColor(rgb: Constants.Colors.checkboxLabel)
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -58,4 +57,12 @@ class CheckboxView: UIView {
         checkbox.changeChecked()
     }
 
+}
+
+extension CheckboxView: ViewCell {
+    
+    func configure(viewModel: ContactCellViewModel) {
+        label.text = viewModel.message
+    }
+    
 }

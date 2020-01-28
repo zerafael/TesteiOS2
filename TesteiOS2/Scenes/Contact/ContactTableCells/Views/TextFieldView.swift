@@ -152,6 +152,19 @@ extension TextFieldView: UITextFieldDelegate {
             clearButton.isHidden = true
         }
     }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        print("Teste")
+    }
+    
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        print("Teste")
+        return true
+    }
+    
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        print("Teste")
+    }
 
     override func resignFirstResponder() -> Bool {
         textField.resignFirstResponder()
@@ -169,4 +182,10 @@ extension TextFieldView: UITextFieldDelegate {
         return true
     }
 
+}
+
+extension TextFieldView: ViewCell {
+    func configure(viewModel: ContactCellViewModel) {
+        label.text = viewModel.message
+    }
 }

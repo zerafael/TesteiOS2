@@ -9,36 +9,66 @@
 import UIKit
 
 class ContactViewController: UITableViewController {
-
-    override func viewWillAppear(_ animated: Bool) {
+    
+    var interactor: ContactInteractor?
+    
+    var contactCells: [ContactCell] = []
+    
+    override init(style: UITableView.Style) {
+        super.init(style: style)
+        
+        setupView()
+        
+        setup()
+        getContactCells()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setup() {
         registerCells()
+        let presenter = ContactPresenter()
+        self.interactor = ContactInteractor()
+        presenter.viewController = self
+        interactor?.presenter = presenter
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        configure()
-    }
-
-    func configure() {
-        view.backgroundColor = .red
-
+    private func setupView() {
         tableView.separatorStyle = .none
         tableView.allowsSelection = false
     }
-
-    private func registerCells() {
-        tableView.register(DynamicTableViewCell.self)
+    
+    func getContactCells() {
+        let request = ContactModel.Request()
+        interactor?.getContactCells(request: request)
     }
+    
+    func displayCells(viewModel: ContactModel.ViewModel) {
+        
+        guard let cells = viewModel.cells else {
+            return
+        }
+        
+        contactCells = cells
+        tableView.reloadData()
+    }
+}
 
-    // MARK: - Table view data source
+// MARK: - Table view methods
+
+extension ContactViewController {
+    private func registerCells() {
+        tableView.register(DynamicContactTableViewCell.self)
+    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return contactCells.count
     }
 
 //    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -46,7 +76,8 @@ class ContactViewController: UITableViewController {
 //    }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(for: indexPath) as DynamicTableViewCell
+        let cell = tableView.dequeueReusableCell(for: indexPath) as DynamicContactTableViewCell
+        cell.configure(cellData: contactCells[indexPath.row])
 
         return cell
     }

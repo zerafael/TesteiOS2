@@ -10,20 +10,19 @@ import UIKit
 
 class ButtonView: UIButton {
     
-    init(title: String) {
+    init() {
         super.init(frame: .zero)
-        setupView(title)
+        setupView()
     }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    private func setupView(_ title: String) {
+    private func setupView() {
         self.layer.cornerRadius = 25
         self.backgroundColor = UIColor(rgb: Constants.Colors.button)
         self.translatesAutoresizingMaskIntoConstraints = false
-        self.setTitle(title, for: .normal)
 
         self.heightAnchor.constraint(equalToConstant: 50).isActive = true
 
@@ -34,4 +33,10 @@ class ButtonView: UIButton {
         self.pressed()
     }
 
+}
+
+extension ButtonView: ViewCell {
+    func configure(viewModel: ContactCellViewModel) {
+        self.setTitle(viewModel.message, for: .normal)
+    }
 }
