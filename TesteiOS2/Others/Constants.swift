@@ -23,6 +23,8 @@ struct Constants {
         static let lineSelectedTextField = "#ACACAC"
         static let invalidInputTextField = "#FF1F1F"
         static let validInputTextField = "#65BE30"
+        
+        static let contactSendLabel = "#333333"
 
     }
     

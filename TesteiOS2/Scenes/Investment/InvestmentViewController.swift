@@ -13,7 +13,7 @@ class InvestmentViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .yellow
+        view.backgroundColor = .yellow 
     }
 
     // MARK: - Table view data source
