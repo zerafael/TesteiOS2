@@ -7,5 +7,6 @@ target 'TesteiOS2' do
 
   # Pods for TesteiOS2
   pod 'SwiftLint'
+  pod 'Alamofire', '~> 4.9.1'
 
 end

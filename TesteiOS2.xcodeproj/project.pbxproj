@@ -3,14 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8201ED9523DA352500A61380 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201ED9423DA352500A61380 /* ViewCell.swift */; };
 		8204C19123BAFC6500E372BA /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19023BAFC6500E372BA /* ReusableCell.swift */; };
 		8204C19323BAFD2500E372BA /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19223BAFD2500E372BA /* UITableViewCell+Extension.swift */; };
 		8204C19523BAFE9B00E372BA /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19423BAFE9B00E372BA /* UITableView+Extension.swift */; };
-		8204C19723BBD47400E372BA /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19623BBD47400E372BA /* DynamicTableViewCell.swift */; };
+		8204C19723BBD47400E372BA /* DynamicContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19623BBD47400E372BA /* DynamicContactTableViewCell.swift */; };
 		8204C19A23BBDDA300E372BA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19923BBDDA300E372BA /* ButtonView.swift */; };
 		8204C19C23BBEB1100E372BA /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C19B23BBEB1100E372BA /* TextFieldView.swift */; };
 		8204C1A723BBEDFF00E372BA /* DINNeuzeitGroteskStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8204C19E23BBEDFE00E372BA /* DINNeuzeitGroteskStd-Light.otf */; };
@@ -25,11 +26,24 @@
 		8204C1B123BBF4A300E372BA /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204C1B023BBF4A300E372BA /* Utility.swift */; };
 		82050CE023CE516F000630C2 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82050CDF23CE516E000630C2 /* CheckboxView.swift */; };
 		82050CE323CE53B2000630C2 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82050CE223CE53B2000630C2 /* Checkbox.swift */; };
+		82056CD823D8C29D008657AD /* ContactPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82056CD723D8C29D008657AD /* ContactPresenter.swift */; };
+		82056CDA23D93B93008657AD /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82056CD923D93B93008657AD /* ContactCell.swift */; };
+		82061DC023D78F65004AC8C7 /* ContactInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82061DBF23D78F65004AC8C7 /* ContactInteractor.swift */; };
+		820A769B23E138E4009B25DF /* InvestmentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820A769A23E138E4009B25DF /* InvestmentInteractor.swift */; };
+		820A769D23E138F1009B25DF /* InvestmentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820A769C23E138F1009B25DF /* InvestmentPresenter.swift */; };
+		820A769F23E13907009B25DF /* InvestmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820A769E23E13907009B25DF /* InvestmentModel.swift */; };
 		820B308B23C04C3400B4D5C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820B308A23C04C3400B4D5C6 /* UIView+Extension.swift */; };
-		820F2CE323CF9751003668E9 /* FormService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F2CE223CF9751003668E9 /* FormService.swift */; };
+		820B392523DB6C8100962222 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820B392423DB6C8100962222 /* TextView.swift */; };
+		820B9C6E23D621680084912A /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820B9C6D23D621680084912A /* ContactModel.swift */; };
+		820B9C7023D6A1850084912A /* ContactCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820B9C6F23D6A1850084912A /* ContactCellViewModel.swift */; };
+		820F2CE323CF9751003668E9 /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F2CE223CF9751003668E9 /* ContactService.swift */; };
+		8214914123DF731400003BBE /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214914023DF731400003BBE /* Investment.swift */; };
+		8214914323DF7D3200003BBE /* InvestmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214914223DF7D3200003BBE /* InvestmentService.swift */; };
+		8214914523DFACC400003BBE /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214914423DFACC400003BBE /* ApiService.swift */; };
 		821A2DF423B4651D00CA94AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821A2DF323B4651D00CA94AE /* AppDelegate.swift */; };
 		821A2DFD23B4652100CA94AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821A2DFC23B4652100CA94AE /* Assets.xcassets */; };
 		821A2E0023B4652100CA94AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821A2DFE23B4652100CA94AE /* LaunchScreen.storyboard */; };
+		821D927123E215C6001D172E /* ContactSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821D927023E215C6001D172E /* ContactSendViewController.swift */; };
 		822013FC23B98219008838E7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822013FB23B98219008838E7 /* TabBarViewController.swift */; };
 		822013FE23B9CDB7008838E7 /* InvestmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822013FD23B9CDB7008838E7 /* InvestmentViewController.swift */; };
 		8220140023B9CFA3008838E7 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822013FF23B9CFA3008838E7 /* ContactViewController.swift */; };
@@ -41,10 +55,11 @@
 
 /* Begin PBXFileReference section */
 		7C9913046C1E4CAA332CE076 /* Pods_TesteiOS2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteiOS2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8201ED9423DA352500A61380 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
 		8204C19023BAFC6500E372BA /* ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
 		8204C19223BAFD2500E372BA /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
 		8204C19423BAFE9B00E372BA /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
-		8204C19623BBD47400E372BA /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
+		8204C19623BBD47400E372BA /* DynamicContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicContactTableViewCell.swift; sourceTree = "<group>"; };
 		8204C19923BBDDA300E372BA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		8204C19B23BBEB1100E372BA /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		8204C19E23BBEDFE00E372BA /* DINNeuzeitGroteskStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNeuzeitGroteskStd-Light.otf"; sourceTree = "<group>"; };
@@ -59,13 +74,26 @@
 		8204C1B023BBF4A300E372BA /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		82050CDF23CE516E000630C2 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 		82050CE223CE53B2000630C2 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		82056CD723D8C29D008657AD /* ContactPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPresenter.swift; sourceTree = "<group>"; };
+		82056CD923D93B93008657AD /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		82061DBF23D78F65004AC8C7 /* ContactInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInteractor.swift; sourceTree = "<group>"; };
+		820A769A23E138E4009B25DF /* InvestmentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentInteractor.swift; sourceTree = "<group>"; };
+		820A769C23E138F1009B25DF /* InvestmentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentPresenter.swift; sourceTree = "<group>"; };
+		820A769E23E13907009B25DF /* InvestmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentModel.swift; sourceTree = "<group>"; };
 		820B308A23C04C3400B4D5C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		820F2CE223CF9751003668E9 /* FormService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormService.swift; sourceTree = "<group>"; };
+		820B392423DB6C8100962222 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		820B9C6D23D621680084912A /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		820B9C6F23D6A1850084912A /* ContactCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellViewModel.swift; sourceTree = "<group>"; };
+		820F2CE223CF9751003668E9 /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
+		8214914023DF731400003BBE /* Investment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Investment.swift; sourceTree = "<group>"; };
+		8214914223DF7D3200003BBE /* InvestmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentService.swift; sourceTree = "<group>"; };
+		8214914423DFACC400003BBE /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		821A2DF023B4651D00CA94AE /* TesteiOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteiOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		821A2DF323B4651D00CA94AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		821A2DFC23B4652100CA94AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		821A2DFF23B4652100CA94AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		821A2E0123B4652100CA94AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821D927023E215C6001D172E /* ContactSendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSendViewController.swift; sourceTree = "<group>"; };
 		822013FB23B98219008838E7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		822013FD23B9CDB7008838E7 /* InvestmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentViewController.swift; sourceTree = "<group>"; };
 		822013FF23B9CFA3008838E7 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +130,8 @@
 				8204C19923BBDDA300E372BA /* ButtonView.swift */,
 				8204C19B23BBEB1100E372BA /* TextFieldView.swift */,
 				82050CDF23CE516E000630C2 /* CheckboxView.swift */,
+				820B392423DB6C8100962222 /* TextView.swift */,
+				8201ED9423DA352500A61380 /* ViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,9 +163,20 @@
 		820F2CE123CF9522003668E9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				820F2CE223CF9751003668E9 /* FormService.swift */,
+				8214914423DFACC400003BBE /* ApiService.swift */,
+				820F2CE223CF9751003668E9 /* ContactService.swift */,
+				8214914223DF7D3200003BBE /* InvestmentService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		820F2CE423CFA99D003668E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82056CD923D93B93008657AD /* ContactCell.swift */,
+				8214914023DF731400003BBE /* Investment.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		821A2DE723B4651D00CA94AE = {
@@ -160,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				822013EC23B97EEC008838E7 /* Scenes */,
+				820F2CE423CFA99D003668E9 /* Models */,
 				820F2CE123CF9522003668E9 /* Networking */,
 				82050CE123CE5380000630C2 /* CustomViews */,
 				8204C18F23BAFBB200E372BA /* Protocols */,
@@ -174,11 +216,20 @@
 			path = TesteiOS2;
 			sourceTree = "<group>";
 		};
+		821D926F23E21583001D172E /* ContactSend */ = {
+			isa = PBXGroup;
+			children = (
+				821D927023E215C6001D172E /* ContactSendViewController.swift */,
+			);
+			path = ContactSend;
+			sourceTree = "<group>";
+		};
 		822013EC23B97EEC008838E7 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
 				822013ED23B97F32008838E7 /* Investment */,
 				822013EE23B97F53008838E7 /* Contact */,
+				821D926F23E21583001D172E /* ContactSend */,
 				822013FB23B98219008838E7 /* TabBarViewController.swift */,
 			);
 			path = Scenes;
@@ -188,6 +239,9 @@
 			isa = PBXGroup;
 			children = (
 				822013FD23B9CDB7008838E7 /* InvestmentViewController.swift */,
+				820A769E23E13907009B25DF /* InvestmentModel.swift */,
+				820A769A23E138E4009B25DF /* InvestmentInteractor.swift */,
+				820A769C23E138F1009B25DF /* InvestmentPresenter.swift */,
 			);
 			path = Investment;
 			sourceTree = "<group>";
@@ -195,19 +249,23 @@
 		822013EE23B97F53008838E7 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
-				8220140123B9DE6E008838E7 /* TableCells */,
+				8220140123B9DE6E008838E7 /* ContactTableCells */,
 				822013FF23B9CFA3008838E7 /* ContactViewController.swift */,
+				820B9C6D23D621680084912A /* ContactModel.swift */,
+				82061DBF23D78F65004AC8C7 /* ContactInteractor.swift */,
+				82056CD723D8C29D008657AD /* ContactPresenter.swift */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
 		};
-		8220140123B9DE6E008838E7 /* TableCells */ = {
+		8220140123B9DE6E008838E7 /* ContactTableCells */ = {
 			isa = PBXGroup;
 			children = (
 				8204C19823BBDD8800E372BA /* Views */,
-				8204C19623BBD47400E372BA /* DynamicTableViewCell.swift */,
+				8204C19623BBD47400E372BA /* DynamicContactTableViewCell.swift */,
+				820B9C6F23D6A1850084912A /* ContactCellViewModel.swift */,
 			);
-			path = TableCells;
+			path = ContactTableCells;
 			sourceTree = "<group>";
 		};
 		8220140423B9E08B008838E7 /* Others */ = {
@@ -259,7 +317,7 @@
 				821A2DEC23B4651D00CA94AE /* Sources */,
 				821A2DED23B4651D00CA94AE /* Frameworks */,
 				821A2DEE23B4651D00CA94AE /* Resources */,
-				829CE67A23B5B4AE007235FD /* ShellScript */,
+				B59BACB247BDC4C740F9D6E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -347,22 +405,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		829CE67A23B5B4AE007235FD /* ShellScript */ = {
+		B59BACB247BDC4C740F9D6E2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TesteiOS2/Pods-TesteiOS2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TesteiOS2/Pods-TesteiOS2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TesteiOS2/Pods-TesteiOS2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -371,24 +429,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820A769B23E138E4009B25DF /* InvestmentInteractor.swift in Sources */,
+				82056CDA23D93B93008657AD /* ContactCell.swift in Sources */,
 				8204C1B123BBF4A300E372BA /* Utility.swift in Sources */,
 				8204C19523BAFE9B00E372BA /* UITableView+Extension.swift in Sources */,
 				8220140923B9E407008838E7 /* UIColor+Extension.swift in Sources */,
 				820B308B23C04C3400B4D5C6 /* UIView+Extension.swift in Sources */,
+				82061DC023D78F65004AC8C7 /* ContactInteractor.swift in Sources */,
+				8214914323DF7D3200003BBE /* InvestmentService.swift in Sources */,
 				8204C19323BAFD2500E372BA /* UITableViewCell+Extension.swift in Sources */,
 				822013FE23B9CDB7008838E7 /* InvestmentViewController.swift in Sources */,
 				822013FC23B98219008838E7 /* TabBarViewController.swift in Sources */,
 				821A2DF423B4651D00CA94AE /* AppDelegate.swift in Sources */,
 				8220140B23B9F8A4008838E7 /* UIButton+Extension.swift in Sources */,
-				820F2CE323CF9751003668E9 /* FormService.swift in Sources */,
+				820B9C7023D6A1850084912A /* ContactCellViewModel.swift in Sources */,
+				8201ED9523DA352500A61380 /* ViewCell.swift in Sources */,
+				821D927123E215C6001D172E /* ContactSendViewController.swift in Sources */,
+				820F2CE323CF9751003668E9 /* ContactService.swift in Sources */,
+				8214914123DF731400003BBE /* Investment.swift in Sources */,
+				820A769D23E138F1009B25DF /* InvestmentPresenter.swift in Sources */,
+				820B392523DB6C8100962222 /* TextView.swift in Sources */,
 				8204C19C23BBEB1100E372BA /* TextFieldView.swift in Sources */,
 				8220140023B9CFA3008838E7 /* ContactViewController.swift in Sources */,
 				8204C19A23BBDDA300E372BA /* ButtonView.swift in Sources */,
-				8204C19723BBD47400E372BA /* DynamicTableViewCell.swift in Sources */,
+				8204C19723BBD47400E372BA /* DynamicContactTableViewCell.swift in Sources */,
+				82056CD823D8C29D008657AD /* ContactPresenter.swift in Sources */,
+				8214914523DFACC400003BBE /* ApiService.swift in Sources */,
 				8220140623B9E0A8008838E7 /* Constants.swift in Sources */,
 				8204C19123BAFC6500E372BA /* ReusableCell.swift in Sources */,
+				820B9C6E23D621680084912A /* ContactModel.swift in Sources */,
 				82050CE023CE516F000630C2 /* CheckboxView.swift in Sources */,
 				82050CE323CE53B2000630C2 /* Checkbox.swift in Sources */,
+				820A769F23E13907009B25DF /* InvestmentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
